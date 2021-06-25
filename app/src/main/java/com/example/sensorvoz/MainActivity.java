@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent1);
             }
 
-            if(spokenText.equals("hola")){
+            if(spokenText.equals("ver actividades")){
                 Intent intent1 = new Intent(this,ActivitySiguiente.class);
                 startActivity(intent1);
             }
